@@ -1,0 +1,11 @@
+Broker = "127.0.0.1:40821"
+
+[Topic]
+[Topic.atmosphere]
+Type = 'reading'
+
+[Topic.precipitation]
+Type = 'precipitation'
+
+[Topic.weather]
+Type = 'weather'
