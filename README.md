@@ -26,7 +26,7 @@ The three stages are:
 
 ### On mint messages
 
-This project uses [mint messages](github.com/vinyl-linux/mint) under the hood to [shift left](https://devops.com/data-reliability-needs-to-shift-left/) data quality, by providing message/row level validation capabilities for developers and data owners.
+This project uses [mint messages](https://github.com/vinyl-linux/mint) under the hood to [shift left](https://devops.com/data-reliability-needs-to-shift-left/) data quality, by providing message/row level validation capabilities for developers and data owners.
 
 The benefit of this is reasonably clear: where a produce produces a message which is capital-i Incorrect, and thus is unsuitable for processing, but which downstream services can process then reporting no longer reflects reality- for MI reporting, where jobs and finances are won and lost based on data quality, this can be catastrophic.
 
